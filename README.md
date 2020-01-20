@@ -82,9 +82,9 @@ StreamBuilder(
         case connectionState.none:
             return Center(child: CircularProgressIndicator());
         case connectionState.active:
-    return myWidget1(snapshot.data);
+    	    return myWidget1(snapshot.data);
         case connectionState.done:
-    return myWidget2(snapshot.data);
+            return myWidget2(snapshot.data);
     },
 );
 ```
